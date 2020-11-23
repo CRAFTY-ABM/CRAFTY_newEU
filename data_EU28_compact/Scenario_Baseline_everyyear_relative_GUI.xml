@@ -1,5 +1,5 @@
 <scenario startTick="2016" endTick="2090" world="EU"
- version="Paramset1" 
+ version="Paramset_test1" 
  regionalisation="28"
   scenario="Baseline">
   <capitals class="org.volante.abm.serialization.CSVCapitalLoader" file="csv/Capitals.csv" indexed="true"/>

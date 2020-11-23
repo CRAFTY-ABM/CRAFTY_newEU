@@ -1,0 +1,2 @@
+aftParamId,givingInDistributionMean,givingInDistributionSD,givingUpDistributionMean,givingUpDistributionSD,serviceLevelNoiseMin,serviceLevelNoiseMax,givingUpProb,productionCsvFile
+0,0.004,0,0.006,0,1,1,0.25,.//production/%s/IA.csv
