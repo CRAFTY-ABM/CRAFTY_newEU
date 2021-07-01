@@ -19,7 +19,7 @@
 	<updaterFile>xml/CsvCapitalUpdater_%s.xml</updaterFile>    
 
 
-   <!-- Regional institutions -->
+   <!-- Regional institutions (needed for land use control) -->
    <!--	<updaterFile>xml/CsvLandUseUpdater_%s.xml</updaterFile>    -->
    
    <!-- Land use control institution (spatially explicit) -->

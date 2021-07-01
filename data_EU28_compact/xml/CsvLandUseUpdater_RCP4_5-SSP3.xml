@@ -1,4 +1,4 @@
-<updater class="org.volante.abm.update.CSVLandUseUpdater" X_COL="x" Y_COL="y" yearInFilename="true" reapplyPreviousFile="true" prohibitedColumn="Urban.Mask" maskChar="1">
+<updater class="org.volante.abm.update.CSVLandUseUpdater" X_COL="x" Y_COL="y" yearInFilename="true" reapplyPreviousFile="true" restrictionColumn="FR_IMMUTABLE" maskChar="1">
 	<csvFile year="2016">worlds/EU/regionalisations/28/LandUseControl/UrbanMask/RCP4_5-SSP3/UrbanMask2016.csv</csvFile>
 	<csvFile year="2017">worlds/EU/regionalisations/28/LandUseControl/UrbanMask/RCP4_5-SSP3/UrbanMask2017.csv</csvFile>
 	<csvFile year="2018">worlds/EU/regionalisations/28/LandUseControl/UrbanMask/RCP4_5-SSP3/UrbanMask2018.csv</csvFile>

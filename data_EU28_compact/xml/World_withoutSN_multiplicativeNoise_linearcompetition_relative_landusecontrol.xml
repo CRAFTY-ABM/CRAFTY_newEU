@@ -17,26 +17,23 @@
 
 	<initialiserFile>xml/Initialiser.xml</initialiserFile>
 	<updaterFile>xml/CsvCapitalUpdater_%s.xml</updaterFile>    
+	<updaterFile>xml/CsvLandUseUpdater_%s.xml</updaterFile>
 
 
    <!-- Regional institutions -->
-   <updaterFile>xml/CsvLandUseUpdater_%s.xml</updaterFile> 
-   
+
    <!-- Land use control institution (spatially explicit) -->
 
-	<institution
+  <institution
 		class="org.volante.abm.institutions.LanduseControllingInstitution">
-		<csvFileProhibitedLanduse>worlds/%w/regionalisations/%k/LandUseControl/UrbanMask/%s/UrbanMask2016.csv</csvFileProhibitedLanduse>
-		<xColumn>x</xColumn>
-		<yColumn>y</yColumn>
-		<prohibitedColumn>Urban.mask</prohibitedColumn>
-		<maskChar>1</maskChar> 
-	</institution> -->
+	</institution> 
+   
+
+
 	<!-- FR restricting instititon (FR to FR) -->
-	<institution class="org.volante.abm.institutions.FrRestrictingInsitution">
+	<institution class="org.volante.abm.institutions.FrRestrictingInstitution">
     	<csvFileRestrictedAllocations>csv/AllocationTypeRestrictions.csv</csvFileRestrictedAllocations>
 	</institution>
-
-
+	 
 </region>
 </world>

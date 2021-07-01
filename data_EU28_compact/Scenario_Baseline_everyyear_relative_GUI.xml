@@ -25,7 +25,7 @@
 </displays>
 
   <globalBtReposFile>./institutions/global/GlobalInstitutionsBtRepos.xml</globalBtReposFile>
-  <globalInstitutionFile>./institutions/global/GlobalInstitutionsMonitoring.xml</globalInstitutionFile>
+<!--  <globalInstitutionFile>./institutions/global/GlobalInstitutionsMonitoring.xml</globalInstitutionFile>-->
   
    <worldLoaderFile>xml/World_withoutSN_multiplicativeNoise_linearcompetition_relative.xml</worldLoaderFile>
   </scenario>
