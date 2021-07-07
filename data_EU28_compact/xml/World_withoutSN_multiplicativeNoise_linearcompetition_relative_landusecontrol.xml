@@ -1,7 +1,6 @@
 <world>
 	<region id="EU">
-	
-	
+ 	
 	<allocation class="org.volante.abm.example.GiveUpGiveInAllocationModel" percentageCells="5" percentageTakeOvers="5" relativeThresholding="true"/> 
    
 	<demandFile>xml/RegionalDemand.xml</demandFile>
@@ -17,7 +16,7 @@
 
 	<initialiserFile>xml/Initialiser.xml</initialiserFile>
 	<updaterFile>xml/CsvCapitalUpdater_%s.xml</updaterFile>    
-	<updaterFile>xml/CsvLandUseUpdater_%s.xml</updaterFile>
+	<updaterFile>xml/UrbanMaskUpdater/CsvUrbanMaskUpdater_%s.xml</updaterFile>
 
 
    <!-- Regional institutions -->
@@ -28,12 +27,15 @@
 		class="org.volante.abm.institutions.LanduseControllingInstitution">
 	</institution> 
    
-
-
-	<!-- FR restricting instititon (FR to FR) -->
+	<!-- FR restricting institution (FR to FR) -->
 	<institution class="org.volante.abm.institutions.FrRestrictingInstitution">
-    	<csvFileRestrictedAllocations>csv/AllocationTypeRestrictions.csv</csvFileRestrictedAllocations>
+    	<csvFileRestrictedAllocations>csv/Urban_Restrictions.csv</csvFileRestrictedAllocations>
 	</institution>
-	 
+
+ 	<!-- <institution class="org.volante.abm.institutions.FrSpatialRestrictingInstitution"> 
+    	<csvFileRestrictedAllocations>csv/PA_L1_Restrictions.csv</csvFileRestrictedAllocations>
+		<spatialLayer>PROTECTED_L1</spatialLayer>
+	</institution>-->
+
 </region>
 </world>

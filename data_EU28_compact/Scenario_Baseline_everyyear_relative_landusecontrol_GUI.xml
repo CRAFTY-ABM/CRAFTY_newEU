@@ -24,7 +24,7 @@
     <display class="org.volante.abm.visualisation.SubmodelDisplays" title="Submodels"/>
 </displays>
 
-  <globalBtReposFile>./institutions/global/GlobalInstitutionsBtRepos.xml</globalBtReposFile>
+  <!--<globalBtReposFile>./institutions/global/GlobalInstitutionsBtRepos.xml</globalBtReposFile>-->
   <!--<globalInstitutionFile>./institutions/global/GlobalInstitutionsMonitoring.xml</globalInstitutionFile>-->
   
    <worldLoaderFile>xml/World_withoutSN_multiplicativeNoise_linearcompetition_relative_landusecontrol.xml</worldLoaderFile>
